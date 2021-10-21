@@ -25,9 +25,17 @@
 
         var a=0;
         var txt = "";
-        text += "a: "+a+"<br>"
+        txt += "a: "+ a +"<br>"
 
-         $("#disp2").html(text);
+        if(a==1){
+          txt += "TRUE<br>";
+        }else{
+          txt += "FALSE<br>";
+        }
+         txt += "a: "+ a +"<br>"
+         $("#disp2").html(txt);
+
+        
 
         
         
